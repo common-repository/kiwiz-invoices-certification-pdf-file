@@ -1,0 +1,163 @@
+/**
+* Kiwiz
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License (OSL 3.0)
+* that is available through the world-wide-web at the following URI:
+* https://opensource.org/licenses/osl-3.0.php
+* If you did not receive a copy of the PHP License and are unable to
+* obtain it through the web, please send a note to contact@kiwiz.io
+* so we can mail you a copy immediately.
+*
+* @author Kiwiz <contact@kiwiz.io>
+* @license http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+*/
+
+body {
+    font-size: 14px;
+    margin: 0;
+    color: #000;
+    font-family: "Helvetica", "open sans", "sans-serif";
+}
+
+table {
+    width: 100%;
+}
+
+.document {
+    min-width: 600px;
+    max-width: 1000px;
+    padding: 2% 5% 0;
+}
+
+.document table {
+    width: 100%;
+    border-spacing : 0;
+    border-collapse : collapse;
+}
+
+.document-header {
+    overflow: hidden;
+}
+
+.document-header .logo {
+    width: 60%;
+}
+
+.document-header .info {
+    width: 40%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.document-header .info .shop-name {
+    font-weight: 600;
+    font-size: 18px
+}
+
+.document-info {
+    border-top: 1px solid #737373;
+    margin-top: 5px;
+}
+
+.document-info .document-header-data {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 10px;
+}
+
+.document-info .datas {
+    background-color: #c7c7c7;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.document-info .details {
+    padding: 10px;
+    background: #fbfbfb;
+}
+
+.document-address {
+    margin-bottom: 10px;
+}
+
+.document-address .refund-address,
+.document-address .shipping-address {
+    padding: 5px;
+}
+
+.document-address .refund-address .title,
+.document-address .shipping-address .title {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.document-item .thead {
+    background-color: #c7c7c7;
+}
+
+.document-item .thead td  {
+    text-align: left;
+    padding: 5px;
+}
+
+/*.document-item tr.tbody td {
+    width: 50px;
+}
+
+.document-item tr.tbody td.product_name {
+    width: 150px;
+}*/
+
+.document-item .thead td.ta-right,
+.document-item td.ta-right {
+    text-align: right;
+}
+
+.document-item td  {
+    vertical-align: top;
+    padding: 5px;
+}
+
+.document-totals .totals {
+    margin-top: 15px;
+    border: 1px solid #c7c7c7;
+}
+.document-totals .totals .total {
+    background: #c7c7c7;
+    font-weight: bold;
+}
+
+.document-totals .total-subtitle {
+    font-weight: bold;
+}
+
+.document-totals tr td {
+    text-align: right;
+}
+.document-totals tr td.first {
+    width: 45%;
+}
+.document-totals tr td.second {
+    width: 55%;
+}
+
+.document-totals .totals .tax-rates.tax-rates-item {
+    font-size: 10px;
+}
+
+.document-totals .totals td {
+    padding: 2px;
+}
+
+.document-totals .totals .total td {
+    padding: 5px;
+}
+
+.page_break {
+    page-break-before: always;
+}
+div.page_break + div.page_break{
+    page-break-before: always;
+}

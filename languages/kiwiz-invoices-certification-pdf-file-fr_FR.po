@@ -1,0 +1,809 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kiwiz v1.0.0\n"
+"POT-Creation-Date: 2019-07-11 10:17+0200\n"
+"PO-Revision-Date: 2019-07-11 10:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/tpl/invoice-list-page.php:27
+#: includes/admin/class-kiwiz-invoice-list.php:39
+#: includes/admin/class-kiwiz-invoice-list.php:40
+msgid "Invoices list"
+msgstr "Liste des factures"
+
+#: admin/tpl/invoice-list-page.php:43 admin/tpl/refund-list-page.php:43
+msgid "Limit"
+msgstr "Limite"
+
+#: admin/tpl/invoice-list-page.php:67 admin/tpl/refund-list-page.php:67
+msgid "Status"
+msgstr "Statut"
+
+#: admin/tpl/invoice-list-page.php:77 admin/tpl/refund-list-page.php:77
+msgid "All"
+msgstr "Tous"
+
+#: admin/tpl/invoice-list-page.php:78 admin/tpl/refund-list-page.php:78
+#: includes/admin/class-kiwiz-invoice-list.php:245
+#: includes/admin/class-kiwiz-order-access.php:178
+#: includes/admin/class-kiwiz-refund-list.php:242 includes/class-kiwiz.php:506
+msgid "Certified"
+msgstr "Certifié"
+
+#: admin/tpl/invoice-list-page.php:79 admin/tpl/refund-list-page.php:79
+#: includes/admin/class-kiwiz-invoice-list.php:247
+#: includes/admin/class-kiwiz-order-access.php:183
+#: includes/admin/class-kiwiz-refund-list.php:244 includes/class-kiwiz.php:510
+msgid "No certified"
+msgstr "Non certifié"
+
+#: admin/tpl/invoice-list-page.php:80 admin/tpl/refund-list-page.php:80
+#: includes/admin/class-kiwiz-invoice-list.php:249
+#: includes/admin/class-kiwiz-order-access.php:185
+#: includes/admin/class-kiwiz-refund-list.php:246 includes/class-kiwiz.php:502
+msgid "Can not be certified"
+msgstr "Ne peut pas être certifié"
+
+#: admin/tpl/invoice-list-page.php:88 admin/tpl/refund-list-page.php:88
+msgid "Start Date"
+msgstr "Date de début"
+
+#: admin/tpl/invoice-list-page.php:105 admin/tpl/refund-list-page.php:105
+msgid "End Date"
+msgstr "Date de fin"
+
+#: admin/tpl/invoice-list-page.php:122 admin/tpl/refund-list-page.php:122
+msgid "Order by"
+msgstr "Trier par"
+
+#: admin/tpl/invoice-list-page.php:132 admin/tpl/refund-list-page.php:132
+msgid "No. ascending order"
+msgstr "N° de commande croissant"
+
+#: admin/tpl/invoice-list-page.php:133 admin/tpl/refund-list-page.php:133
+msgid "No. descending order"
+msgstr "N° de commande décroissant"
+
+#: admin/tpl/invoice-list-page.php:134
+msgid "No. ascending invoice"
+msgstr "N° de facture croissant"
+
+#: admin/tpl/invoice-list-page.php:135
+msgid "No. descending invoice"
+msgstr "N° de facture décroissant"
+
+#: admin/tpl/invoice-list-page.php:136 admin/tpl/refund-list-page.php:136
+msgid "Ascending date"
+msgstr "Date croissant"
+
+#: admin/tpl/invoice-list-page.php:137 admin/tpl/refund-list-page.php:137
+msgid "Descending date"
+msgstr "Date décroissant"
+
+#: admin/tpl/invoice-list-page.php:149 admin/tpl/refund-list-page.php:149
+msgid "Save"
+msgstr "Enregistrer"
+
+#: admin/tpl/invoice-list-page.php:150 admin/tpl/refund-list-page.php:150
+msgid "Export"
+msgstr "Exporter"
+
+#: admin/tpl/kiwiz-certification-page.php:28
+msgid "Invoices"
+msgstr "Factures"
+
+#: admin/tpl/kiwiz-certification-page.php:29
+msgid "Refunds"
+msgstr "Avoirs"
+
+#: admin/tpl/refund-list-page.php:27
+msgid "Refund list"
+msgstr "Liste des avoirs"
+
+#: admin/tpl/refund-list-page.php:134
+msgid "No. ascending refund"
+msgstr "N° d'avoir croissant"
+
+#: admin/tpl/refund-list-page.php:135
+msgid "No. descending refund"
+msgstr "N° d'avoir décroissant"
+
+#: includes/admin/class-kiwiz-admin.php:65
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:365
+#: includes/class-kiwiz-init.php:54
+msgid "Add image"
+msgstr "Ajouter une image"
+
+#: includes/admin/class-kiwiz-admin.php:65
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:365
+#: includes/class-kiwiz-init.php:53
+msgid "Edit image"
+msgstr "Modifier l'image"
+
+#: includes/admin/class-kiwiz-admin.php:66
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:366
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/admin/class-kiwiz-admin.php:86
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:268
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/admin/class-kiwiz-admin.php:89
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:271
+msgid "No"
+msgstr "Non"
+
+#: includes/admin/class-kiwiz-invoice-list.php:198
+msgid "Invoices N°"
+msgstr "N° Facture"
+
+#: includes/admin/class-kiwiz-invoice-list.php:199
+#: includes/admin/class-kiwiz-refund-list.php:196
+msgid "Order Id"
+msgstr "Id Commande"
+
+#: includes/admin/class-kiwiz-invoice-list.php:200
+msgid "Invoices date"
+msgstr "Date Facture"
+
+#: includes/admin/class-kiwiz-invoice-list.php:201
+#: includes/admin/class-kiwiz-refund-list.php:198
+msgid "Kiwiz status"
+msgstr "Statut Kiwiz"
+
+#: includes/admin/class-kiwiz-invoice-list.php:202
+#: includes/admin/class-kiwiz-refund-list.php:199
+msgid "Actions"
+msgstr "Actions"
+
+#: includes/admin/class-kiwiz-invoice-list.php:260
+#: includes/admin/class-kiwiz-invoice-list.php:263
+#: includes/admin/class-kiwiz-invoice-list.php:271
+#: includes/admin/class-kiwiz-refund-list.php:258
+#: includes/admin/class-kiwiz-refund-list.php:261
+#: includes/admin/class-kiwiz-refund-list.php:269
+msgid "Display"
+msgstr "Afficher"
+
+#: includes/admin/class-kiwiz-invoice-list.php:266
+#: includes/admin/class-kiwiz-refund-list.php:264
+msgid "Send to Kiwiz"
+msgstr "Envoyer à Kiwiz"
+
+#: includes/admin/class-kiwiz-invoice-list.php:320
+#: includes/admin/class-kiwiz-refund-list.php:318
+msgid "Configuration saved"
+msgstr "Configuration enregistrée"
+
+#: includes/admin/class-kiwiz-invoice-list.php:382
+#: includes/admin/class-kiwiz-refund-list.php:382
+msgid "No documents found"
+msgstr "Aucuns documents trouvés"
+
+#: includes/admin/class-kiwiz-order-access.php:97
+msgid "Manage documents PDF"
+msgstr "Gérer les documents PDF"
+
+#: includes/admin/class-kiwiz-order-access.php:117
+#: includes/frontend/class-kiwiz-frontend.php:45
+msgid "Invoice"
+msgstr "Facture"
+
+#: includes/admin/class-kiwiz-order-access.php:120 includes/class-kiwiz.php:445
+msgid "Create Invoice PDF"
+msgstr "Créer une facture PDF"
+
+#: includes/admin/class-kiwiz-order-access.php:126
+msgid "Certify invoice PDF"
+msgstr "Certifier une facture PDF"
+
+#: includes/admin/class-kiwiz-order-access.php:128
+msgid "Download invoice PDF"
+msgstr "Télécharger la facture PDF"
+
+#: includes/admin/class-kiwiz-order-access.php:139
+#: includes/admin/class-kiwiz-order-access.php:144
+#: includes/document/class-kiwiz-document-refund.php:360
+#: includes/frontend/class-kiwiz-frontend.php:72
+msgid "Refund"
+msgstr "Avoir"
+
+#: includes/admin/class-kiwiz-order-access.php:146
+msgid "Create Refund PDF"
+msgstr "Créer un avoir PDF"
+
+#: includes/admin/class-kiwiz-order-access.php:151
+msgid "Certify refund PDF"
+msgstr "Certifier l'avoir PDF"
+
+#: includes/admin/class-kiwiz-order-access.php:153
+msgid "Refund PDF"
+msgstr "Avoir PDF"
+
+#: includes/admin/class-kiwiz-order-access.php:153
+msgid "Download refund PDF"
+msgstr "Télécharger l'avoir PDF"
+
+#: includes/admin/class-kiwiz-order-access.php:168
+msgid "Date : "
+msgstr "Date : "
+
+#: includes/admin/class-kiwiz-order-access.php:172
+msgid "Number : "
+msgstr "Numéro : "
+
+#: includes/admin/class-kiwiz-order-access.php:176
+msgid "Certification Kiwiz : "
+msgstr "Certification Kiwiz : "
+
+#: includes/admin/class-kiwiz-order-access.php:180
+#: includes/admin/class-kiwiz-order-access.php:187
+msgid ""
+"Subscribe to <a href=\"https://www.kiwiz.io/prix\" target=\"_blank\">Kiwiz</"
+"a> to activate the certification"
+msgstr ""
+"Abonnez-vous à <a href=\"https://www.kiwiz.io/prix\" target=\"_blank"
+"\">Kiwiz</a> pour activer la certification"
+
+#: includes/admin/class-kiwiz-refund-list.php:38
+#: includes/admin/class-kiwiz-refund-list.php:39
+msgid "Refunds list"
+msgstr "Liste des avoirs"
+
+#: includes/admin/class-kiwiz-refund-list.php:195
+msgid "Refunds N°"
+msgstr "N° Avoir"
+
+#: includes/admin/class-kiwiz-refund-list.php:197
+msgid "Refunds date"
+msgstr "Date avoir"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:30
+msgid "KIWIZ"
+msgstr "KIWIZ"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:33
+msgid ""
+"The finance 2016 law requires you to use, since January 2018 accounting "
+"software or a secure and certified cash register system to manage your "
+"billing."
+msgstr ""
+"La loi finance 2016 vous oblige à utiliser, depuis Janvier 2018 un logiciel "
+"de comptabilité ou d'un système de caisse sécurisé et certifié pour gérer "
+"votre facturation."
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:34
+msgid ""
+"Kiwiz offers a solution that allows you to maintain your current system and "
+"comply with the \"VAT Anti-Fraud Act\"."
+msgstr ""
+"Kiwiz offre une solution qui vous permet de conserver votre système actuel "
+"et être en conformité avec la \"loi anti-fraude TVA\"."
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:35
+msgid ""
+"Kiwiz is a certification platform in the Blockchain of accounting documents "
+"(invoices and credit notes)."
+msgstr ""
+"Kiwiz est une plateforme de certification dans la Blockchain de documents "
+"comptables (factures et avoirs)."
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:36
+msgid ""
+"Simply subscribe to a subscription here <a href=\"https://www.kiwiz.io/prix"
+"\" target=\"_blank\">https://www.kiwiz.io/prix</a> then retrieve your "
+"identifiers indicated in the welcome email and fill out the form below."
+msgstr ""
+"Il vous suffit de souscrire à un abonnement ici <a href=\"https://www.kiwiz."
+"io/prix\" target=\"_blank\">https://www.kiwiz.io/prix</a> puis de récupérer "
+"vos identifiants indiqués dans l’email de bienvenue et remplir le formulaire "
+"ci-dessous."
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:62
+msgid "Login"
+msgstr "Identifiant"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:66
+msgid "Password"
+msgstr "Mot de passe"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:70
+msgid "Subscription ID"
+msgstr "Numéro d'abonnement"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:74
+msgid "Enable test mode"
+msgstr "Activer le mode de test"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:78
+msgid "Notification emails"
+msgstr "Emails de notification"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:80
+msgid "Separated by commas"
+msgstr "Séparé par des virgules"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:89
+msgid "Configure PDF Settings Kiwiz"
+msgstr "Configurer les paramètres PDF Kiwiz"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:92
+msgid "Shop logo"
+msgstr "Logo de la boutique"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:94
+#: includes/class-kiwiz-init.php:52
+msgid "The image must be in the format: jpg, png, gif"
+msgstr "L'image doit être au format : jpg, png, gif"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:94
+#: includes/class-kiwiz-init.php:51
+msgid ". Logo must be no bigger than 300 x 150 pixels"
+msgstr ". La taille autorisée est 300 x 150 pixels"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:97
+msgid "Shop Name"
+msgstr "Nom de la boutique"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:103
+msgid "Shop Address"
+msgstr "Adresse de la boutique"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:110
+msgid "Document header"
+msgstr "Entête du document"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:115
+msgid "Document footer"
+msgstr "Numéro de SIRET et mentions légales"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:121
+msgid "Date format "
+msgstr "Format de la date "
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:136
+msgid "Configure invoices creation"
+msgstr "Configurer la création des factures"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:139
+msgid "Create the invoice if the order has the state"
+msgstr "Créer la facture quand la commande a l'état"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:142
+msgid "You can choose multiple states"
+msgstr "Vous pouvez choisir plusieurs états"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:301
+msgid "Using your current plan is"
+msgstr "L'utilisation de votre forfait actuel est de"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:311
+msgid "Your account is not valid"
+msgstr "Votre compte n'est pas valide"
+
+#: includes/admin/integration/class.kiwiz-integration-account-settings.php:327
+msgid "Preview"
+msgstr "Prévisualiser"
+
+#: includes/class-kiwiz-init.php:50
+msgid "The logo your uploading is "
+msgstr "Le logo téléchargé fait "
+
+#: includes/class-kiwiz-init.php:55
+msgid "Error"
+msgstr "Erreur"
+
+#: includes/class-kiwiz-init.php:91
+msgid "KIWIZ Certification"
+msgstr "Certification Kiwiz"
+
+#: includes/class-kiwiz.php:191
+#, php-format
+msgid ""
+"KIWIZ WooCommerce Invoice & Refunds Certification : This module must be "
+"installed <strong>%s</strong> <a href=\"%s\" class=\"button-primary"
+"\">Install WooCommerce</a>"
+msgstr ""
+"Kiwiz WooCommerce Certification de factures & d'avoir : Le module <strong>"
+"%s</strong> doit être installé <a href=\"%s\" class=\"button-primary"
+"\">Installer WooCommerce</a>"
+
+#: includes/class-kiwiz.php:219
+msgid "The invoice can't be created"
+msgstr "La facture ne peut être créée"
+
+#: includes/class-kiwiz.php:237
+msgid "Generate document failed"
+msgstr "La création du document a échouée"
+
+#: includes/class-kiwiz.php:244
+msgid "Error unknow action"
+msgstr "Erreur, action inconnue"
+
+#: includes/class-kiwiz.php:392
+msgid "Kiwiz Certification"
+msgstr "Certification Kiwiz"
+
+#: includes/class-kiwiz.php:419
+msgid "The invoice already exist"
+msgstr "La facture existe déjà"
+
+#: includes/class-kiwiz.php:459
+#, php-format
+msgid "Kiwiz : %s invoice was created"
+msgid_plural "Kiwiz : %s invoices were created."
+msgstr[0] "Kiwiz : %s facture a été créée"
+msgstr[1] "Kiwiz : %s factures ont été créées"
+
+#: includes/class-kiwiz.php:471
+msgid "Order"
+msgstr "Commande"
+
+#: includes/class-kiwiz.php:476
+#, php-format
+msgid "Kiwiz : %s invoice was not created."
+msgid_plural "Kiwiz : %s invoices were not created."
+msgstr[0] "Kiwiz : %s facture n'a pas été créée."
+msgstr[1] "Kiwiz : %s factures n'ont pas été créées."
+
+#: includes/class-kiwiz.php:517
+msgid "No invoice yet"
+msgstr "Pas encore de facture"
+
+#: includes/document/class-kiwiz-document-certify.php:130
+msgid "the document is older than activation Kiwiz account date"
+msgstr "le document est plus ancien que la date d'activation du compte Kiwiz"
+
+#: includes/document/class-kiwiz-document-certify.php:141
+#: includes/document/class-kiwiz-document.php:272
+msgid "Configure"
+msgstr "Configurer"
+
+#: includes/document/class-kiwiz-document-certify.php:143
+#: includes/document/class-kiwiz-document.php:274
+msgid "Required PDF settings are not defined"
+msgstr "Les paramètres PDF obligatoires n'ont pas été définis"
+
+#: includes/document/class-kiwiz-document-certify.php:186
+#, php-format
+msgid ""
+"Certification successfully completed for the document No.%s (order  No.%s)"
+msgstr "La certification réussie pour le document N°.%s (commande  N°%s)"
+
+#: includes/document/class-kiwiz-document-certify.php:187
+#, php-format
+msgid "file_hash : %s"
+msgstr "file_hash : %s"
+
+#: includes/document/class-kiwiz-document-certify.php:188
+#, php-format
+msgid "block_hash : %s"
+msgstr "block_hash : %s"
+
+#: includes/document/class-kiwiz-document-certify.php:189
+#, php-format
+msgid "Certification date : %s"
+msgstr "Date de certification : %s"
+
+#: includes/document/class-kiwiz-document-certify.php:191
+msgid "KIWIZ Certification successfully completed"
+msgstr "Certification KIWIZ terminée avec succès"
+
+#: includes/document/class-kiwiz-document-certify.php:204
+#, php-format
+msgid "Kiwiz Certification failed for the document  No.%s (order  No.%s)"
+msgstr ""
+"La certification KIWIZ a échouée pour le document  N°%s (Commande  N°.%s)"
+
+#: includes/document/class-kiwiz-document-certify.php:205
+#, php-format
+msgid "Error: %s - %s"
+msgstr "Erreur: %s - %s"
+
+#: includes/document/class-kiwiz-document-certify.php:207
+msgid "Kiwiz Certification failed"
+msgstr "La certification Kiwiz a échouée"
+
+#: includes/document/class-kiwiz-document-certify.php:341
+msgid "the order was not created"
+msgstr "la commande n'a pas été créée"
+
+#: includes/document/class-kiwiz-document-certify.php:344
+msgid "order is empty"
+msgstr "la commande est vide"
+
+#: includes/document/class-kiwiz-document-certify.php:347
+msgid "billing address is incomplete"
+msgstr "l'adresse de facturation est incomplète"
+
+#: includes/document/class-kiwiz-document-certify.php:350
+msgid "incorrect email format in the billing address"
+msgstr "format d'email incorrect dans l'adresse de facturation"
+
+#: includes/document/class-kiwiz-document-certify.php:353
+msgid "payment method is not defined "
+msgstr "la méthode de paiement n'est pas définie."
+
+#: includes/document/class-kiwiz-document-example.php:133
+#: includes/document/class-kiwiz-document-invoice.php:192
+msgid "Invoice n°"
+msgstr "N° Facture"
+
+#: includes/document/class-kiwiz-document-example.php:134
+#: includes/document/class-kiwiz-document-invoice.php:193
+#: includes/document/class-kiwiz-document-refund.php:200
+msgid "Order n°"
+msgstr "N° Commande"
+
+#: includes/document/class-kiwiz-document-example.php:137
+#: includes/document/class-kiwiz-document-invoice.php:196
+msgid "Invoice date"
+msgstr "Date Facture"
+
+#: includes/document/class-kiwiz-document-example.php:138
+#: includes/document/class-kiwiz-document-invoice.php:197
+#: includes/document/class-kiwiz-document-refund.php:205
+msgid "Order date"
+msgstr "Date Commande"
+
+#: includes/document/class-kiwiz-document-example.php:149
+#: includes/document/class-kiwiz-document-invoice.php:208
+#: includes/document/class-kiwiz-document-refund.php:216
+msgid "Payment method"
+msgstr "Mode de paiement"
+
+#: includes/document/class-kiwiz-document-example.php:149
+msgid "Payment method name"
+msgstr "Nom mode de paiement"
+
+#: includes/document/class-kiwiz-document-example.php:153
+#: includes/document/class-kiwiz-document-invoice.php:219
+#: includes/document/class-kiwiz-document-refund.php:227
+msgid "Shipping method"
+msgstr "Mode de livraison"
+
+#: includes/document/class-kiwiz-document-example.php:153
+msgid "Shipping method name"
+msgstr "Nom mode de livraison"
+
+#: includes/document/class-kiwiz-document-example.php:164
+#: includes/document/class-kiwiz-document-invoice.php:235
+#: includes/document/class-kiwiz-document-refund.php:243
+msgid "Invoice address"
+msgstr "Adresse de facturation"
+
+#: includes/document/class-kiwiz-document-example.php:172
+#: includes/document/class-kiwiz-document-invoice.php:247
+#: includes/document/class-kiwiz-document-refund.php:255
+msgid "Shipping address"
+msgstr "Adresse de livraison"
+
+#: includes/document/class-kiwiz-document-example.php:191
+#: includes/document/class-kiwiz-document-invoice.php:269
+#: includes/document/class-kiwiz-document-refund.php:277
+msgid "Products"
+msgstr "Produits"
+
+#: includes/document/class-kiwiz-document-example.php:192
+#: includes/document/class-kiwiz-document-invoice.php:270
+#: includes/document/class-kiwiz-document-refund.php:278
+msgid "Sku"
+msgstr "Ref"
+
+#: includes/document/class-kiwiz-document-example.php:193
+#: includes/document/class-kiwiz-document-invoice.php:271
+#: includes/document/class-kiwiz-document-refund.php:279
+msgid "Price"
+msgstr "Prix"
+
+#: includes/document/class-kiwiz-document-example.php:194
+#: includes/document/class-kiwiz-document-invoice.php:272
+#: includes/document/class-kiwiz-document-refund.php:280
+msgid "Qty"
+msgstr "Qté"
+
+#: includes/document/class-kiwiz-document-example.php:195
+#: includes/document/class-kiwiz-document-invoice.php:273
+#: includes/document/class-kiwiz-document-refund.php:281
+msgid "Tax"
+msgstr "Taxe"
+
+#: includes/document/class-kiwiz-document-example.php:196
+#: includes/document/class-kiwiz-document-invoice.php:274
+#: includes/document/class-kiwiz-document-refund.php:282
+msgid "Subtotal"
+msgstr "Sous-Total"
+
+#: includes/document/class-kiwiz-document-example.php:231
+#: includes/document/class-kiwiz-document-invoice.php:338
+#: includes/document/class-kiwiz-document-refund.php:418
+msgid "Shipping"
+msgstr "Livraison"
+
+#: includes/document/class-kiwiz-document-example.php:237
+#: includes/document/class-kiwiz-document-invoice.php:361
+#: includes/document/class-kiwiz-document-refund.php:404
+msgid "Subtotal Excl. Tax"
+msgstr "Sous-Total HT"
+
+#: includes/document/class-kiwiz-document-example.php:243
+#: includes/document/class-kiwiz-document-invoice.php:377
+#: includes/document/class-kiwiz-document-refund.php:410
+msgid "Tax Total"
+msgstr "Total Taxe"
+
+#: includes/document/class-kiwiz-document-example.php:253
+#: includes/document/class-kiwiz-document-invoice.php:385
+#: includes/document/class-kiwiz-document-refund.php:424
+msgid "Total"
+msgstr "Total"
+
+#: includes/document/class-kiwiz-document-invoice.php:346
+#: includes/document/class-kiwiz-document-refund.php:337
+msgid "Fee"
+msgstr "Frais"
+
+#: includes/document/class-kiwiz-document-invoice.php:354
+msgid "Discount"
+msgstr "Réduction"
+
+#: includes/document/class-kiwiz-document-refund.php:199
+msgid "Refund n°"
+msgstr "N° Avoir"
+
+#: includes/document/class-kiwiz-document-refund.php:204
+msgid "Refund date"
+msgstr "Date Avoir"
+
+#: includes/document/class-kiwiz-document.php:46
+msgid "Page: {PAGE_NUM} of {PAGE_COUNT}"
+msgstr "Page: {PAGE_NUM} sur {PAGE_COUNT}"
+
+#: includes/document/class-kiwiz-document.php:110
+msgid "Create document fail"
+msgstr "La création du document a échouée"
+
+#: includes/document/class-kiwiz-document.php:190
+#: includes/document/class-kiwiz-document.php:210
+msgid "The document does not exist"
+msgstr "Le document n'existe pas"
+
+#: includes/document/class-kiwiz-document.php:199
+msgid "Certification document failed"
+msgstr "La certification du document a échouée"
+
+#: includes/document/class-kiwiz-document.php:252
+msgid "Order details manually sent to customer."
+msgstr "Envoyer manuellement les détails de la commande au client."
+
+#: includes/frontend/class-kiwiz-frontend.php:47
+#, php-format
+msgid "Invoice #%s"
+msgstr "Facture N°%s"
+
+#: includes/frontend/class-kiwiz-frontend.php:48
+#: includes/frontend/class-kiwiz-frontend.php:64
+msgid "Download"
+msgstr "Télécharger"
+
+#: includes/frontend/class-kiwiz-frontend.php:63
+#, php-format
+msgid "Refund #%s"
+msgstr "Avoir N°%s"
+
+#: woocommerce-gateway-certification-de-facture-et-gestion-de-pdf-kiwiz.php:121
+msgid "Every 5 Minutes"
+msgstr "Toutes les 5 minutes"
+
+#: woocommerce-gateway-certification-de-facture-et-gestion-de-pdf-kiwiz.php:131
+msgid ""
+"The extension <strong>KIWIZ Invoices Certification & PDF System</strong> is "
+"activated."
+msgstr ""
+"L'extension <strong>KIWIZ Invoices Certification & PDF System</strong> est "
+"activée."
+
+#: woocommerce-gateway-certification-de-facture-et-gestion-de-pdf-kiwiz.php:135
+msgid "Configure KIWIZ Account"
+msgstr "Configurer le compte Kiwiz"
+
+#~ msgid "Kiwiz : %s invoices were created."
+#~ msgstr "Kiwiz : %s factures ont été créées"
+
+#~ msgid ""
+#~ "You do not have sufficient permissions to install plugins on this site."
+#~ msgstr ""
+#~ "Vous n'avez pas les permissions suffisantes pour installer des  plugins "
+#~ "sur le site."
+
+#~ msgid "Error: Install process failed (%s)."
+#~ msgstr "Erreur : Le processus d'installation a échoué (%s)."
+
+#~ msgid "One value by line"
+#~ msgstr "Une valeur par ligne"
+
+#~ msgid "shipping address is incomplete"
+#~ msgstr "l'adresse de livraison  est incomplète"
+
+#~ msgid "Generate increment id fail"
+#~ msgstr "La génération du numéro de document a échouée"
+
+#~ msgid "Kiwiz"
+#~ msgstr "Kiwiz"
+
+#~ msgid "Description"
+#~ msgstr "Description"
+
+#~ msgid "KIWIZ WooCommerce Invoices & Refunds Certification"
+#~ msgstr "KIWIZ WooCommerce factures et remboursements certification"
+
+#~ msgid "General settings"
+#~ msgstr "Configurations générales"
+
+#~ msgid "Options"
+#~ msgstr "Options"
+
+#~ msgid "Document design"
+#~ msgstr "Design du document"
+
+#~ msgid "Account KIWIZ"
+#~ msgstr "Compte KIWIZ"
+
+#~ msgid "KIWIZ PDF Settings"
+#~ msgstr "Configuration KIWIZ PDF"
+
+#~ msgid "PDF Settings"
+#~ msgstr "Configuration PDF"
+
+#~ msgid "Certify"
+#~ msgstr "Certifié"
+
+#~ msgid "No certify"
+#~ msgstr "Non certifié"
+
+#~ msgid "Old orders"
+#~ msgstr "Ancienne commandes"
+
+#~ msgid "Old invoice, can not be certified"
+#~ msgstr "Ancienne commande, ne peut être certifiée"
+
+#~ msgid "Old refund, can not be certified"
+#~ msgstr "Ancien avoir, ne peut être certifié"
+
+#~ msgid "Subtotal Incl. Tax"
+#~ msgstr "Sous-Total TTC"
+
+#~ msgid "Download refund #%s"
+#~ msgstr "Télécharger l'avoir #%s"
+
+#~ msgid "Download invoice #%s"
+#~ msgstr "Télécharger la facture #%s"
+
+#~ msgid "The status of the order does not allow to edit documents"
+#~ msgstr "Le statut de la commande ne permet d'éditer des documents"
+
+#, fuzzy
+#~| msgid "KIWIZ WooCommerce PDF Certification"
+#~ msgid "KIWIZ WooCommerce invoices & refunds Certification"
+#~ msgstr "Kiwiz WooCommerce Certification de documents PDF"
+
+#~ msgid "Datas source"
+#~ msgstr "Source de données"
+
+#~ msgid "Manufacturer attribute"
+#~ msgstr "Attribut fabriquant"
+
+#~ msgid "EAN attribute"
+#~ msgstr "Attribut EAN"

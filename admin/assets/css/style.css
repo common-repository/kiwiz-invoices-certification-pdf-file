@@ -1,0 +1,287 @@
+/**
+* Kiwiz
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License (OSL 3.0)
+* that is available through the world-wide-web at the following URI:
+* https://opensource.org/licenses/osl-3.0.php
+* If you did not receive a copy of the PHP License and are unable to
+* obtain it through the web, please send a note to contact@kiwiz.io
+* so we can mail you a copy immediately.
+*
+* @author Kiwiz <contact@kiwiz.io>
+* @license http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+*/
+
+.certified-kiwiz{
+    padding: 7px 10px;
+    display: inline-block;
+    color: #6dc343;
+}
+
+/** NOTICE **/
+.kiwiz-notice .submit  .button-primary {
+    margin-right: 5px;
+}
+
+/** TITLE **/
+.kiwiz-woopdfc-themes h2 {
+    font-size: 1.6em;
+}
+
+/** BUTTONS **/
+.kiwiz-woopdfc-themes .field-button {
+    display: inline-block;
+    background: #0085ba;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.kiwiz-woopdfc-themes .field-button:hover {
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    text-decoration: none;
+}
+.kiwiz-woopdfc-themes .field-remove-button {
+    background: #ba0018;
+}
+.kiwiz-actions .kiwiz-item {
+    margin-top: 10px;
+}
+.kiwiz-actions .button-meta-box {
+    line-height: 24px;
+}
+.kiwiz-actions .button-meta-box.dashicons-before:before {
+    vertical-align: middle;
+    margin-left: -5px;
+}
+#kiwiz-actions-error-msg {
+    font-size: 12px;
+    color: #444444;
+    font-weight: bold;
+    width: 100%;
+    background: #ffe6e5;
+    padding: 5px 10px;
+    border: 1px solid #cd3232;
+    border-color: #ffc5c2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: none;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 34px;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.switch .span-right-text {
+    position: absolute;
+    top: 10px;
+    right: 4px;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 13px;
+    width: 28px;
+    overflow: hidden;
+    display: inline-block;
+    height: 13px;
+    line-height: 13px;
+}
+.switch .span-left-text {
+    position: absolute;
+    top: 10px;
+    left: 7px;
+    font-weight: bold;
+    color: #ffffff;
+    z-index: 1;
+    font-size: 13px;
+    width: 28px;
+    overflow: hidden;
+    display: inline-block;
+    height: 13px;
+    line-height: 13px;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    z-index: 2;
+}
+input:checked + .slider {
+    background-color: #a3b745;
+}
+input:focus + .slider {
+    box-shadow: 0 0 1px #a3b745;
+}
+input:checked + .slider:before {
+    -webkit-transform: translateX(34px);
+    -ms-transform: translateX(34px);
+    transform: translateX(34px);
+}
+.slider.round {
+    border-radius: 34px;
+}
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/** KIWIZ GRID **/
+.kiwiz-status-order-grid,
+.kiwiz-list-grid {
+    line-height: 20px;
+}
+.kiwiz-status-order-grid.dashicons-yes.status-certify,
+.kiwiz-list-grid.dashicons-yes.status-certify {
+    color: #5ad45a;
+    font-weight: bold;
+}
+.kiwiz-status-order-grid.dashicons-no.status-no-certify,
+.kiwiz-list-grid.dashicons-no.status-no-certify {
+    color: #efb152;
+    font-weight: bold;
+}
+.kiwiz-status-order-grid:before,
+.kiwiz-list-grid:before {
+    border-radius: 100%;
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+.kiwiz-status-order-grid.dashicons-yes.status-certify:before,
+.kiwiz-list-grid.dashicons-yes.status-certify:before {
+    background-color: #5ad45a;
+}
+.kiwiz-status-order-grid.dashicons-no.status-no-certify:before,
+.kiwiz-list-grid.dashicons-no.status-no-certify:before {
+    background-color: #efb152;
+}
+.kiwiz-status-order-grid.dashicons-no.status-nan:before,
+.kiwiz-list-grid.dashicons-no.status-nan:before {
+    background-color: #c3c3c3;
+}
+
+/** KIWIZ ACCOUNT **/
+.kiwiz-account {
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.kiwiz-account.account-valid {
+    background-color: #c5dec2;
+    border: 1px #006505 solid;
+}
+.kiwiz-account.account-no-valid {
+    background-color: #dec2c2;
+    border: 1px #650000 solid;
+}
+.kiwiz-account-text {
+    max-width: 1170px;
+}
+
+/** KIWIZ SETTINGS **/
+.kiwiz-woopdfc-themes .image-container .image {
+    display: block;
+    margin-bottom: 10px;
+    max-height: 150px;
+    max-width: 300px;
+}
+
+.kiwiz-woopdfc-themes .image-container .error-image {
+    background: white;
+    padding: 1px 12px;
+    border-left: 3px solid #dc3232;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+    /** ORDER BOX **/
+#admin-kiwiz-box .detail-title {
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+    background: #d8d7d7;
+}
+#admin-kiwiz-box .content li {
+    border: 1px solid #d8d7d7;
+    margin: 5px 0;
+    padding: 10px;
+
+}
+#admin-kiwiz-box .document-title {
+    font-weight: bold;
+}
+#admin-kiwiz-box .detail-item {
+    overflow: hidden;
+    padding: 5px 0;
+}
+#admin-kiwiz-box .detail-main {
+    padding: 0 10px;
+}
+#admin-kiwiz-box .kiwiz-actions .button.button-meta-box {
+    position: relative;
+}
+#admin-kiwiz-box .kiwiz-actions .button.button-meta-box.button-certify {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+#admin-kiwiz-box .kiwiz-actions .loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #8bc8f1;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    top: 4px;
+    right: -25px;
+    display: none;
+}
+#admin-kiwiz-box .content .detail-main {
+    padding: 0;
+}
+#admin-kiwiz-box .detail-item .detail-left {
+    float: left;
+}
+#admin-kiwiz-box .detail-item .detail-right {
+    float: right;
+}
+#admin-kiwiz-box .detail-item .certification {
+    font-size:14px;
+    font-weight:bold;
+}
+#admin-kiwiz-box .detail-item .certification-failed {
+   color:#e91e1e;
+}
+#admin-kiwiz-box .detail-item .certification-success {
+    color:#6dc343;
+}
+#admin-kiwiz-box .detail-item .certification-nan,
+#admin-kiwiz-box .detail-item .certification-infos {
+    font-size: 13px;
+}
+#admin-kiwiz-box .detail-item .certification-infos {
+    font-weight: normal;
+}
